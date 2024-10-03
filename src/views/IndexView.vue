@@ -4,6 +4,8 @@
       <img :src="index" class="carousel-image" />
     </el-carousel-item>
   </el-carousel>
+
+  <!-- TODO 文案、图片、etc... -->
 </template>
 
 <style>
@@ -13,12 +15,17 @@
 </style>
 
 <script>
+
 export default {
+  components: {
+    // 
+  },
   data() {
     return {
       indexes: [
-        require('../../src/assets/material/background.jpg'),
-        require('../../src/assets/material/background.jpg'),
+        require('../../src/assets/index/bridge1.jpg'),
+        require('../../src/assets/index/bridge2.jpg'),
+        require('../../src/assets/index/bridge3.jpg'),
       ]
     }
   }
