@@ -1,6 +1,6 @@
 <!-- 全局头部实现的导航栏功能 -->
 <template>
-    <el-container>
+    <el-container class="animate__animated animate__bounceInRight">
         <!-- flex-grow同级元素会按比例分配空间 -->
         <span style="flex-grow:30;"></span>
         <el-menu mode="horizontal" style="width:auto;flex-grow: 2;" :default-active="'0'" ellipsis=false>
